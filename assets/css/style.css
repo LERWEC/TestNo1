@@ -1,0 +1,39 @@
+.wrap {
+    margin: 20px
+}
+
+.btn {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn.close {
+    display: none;
+}
+
+.element div {
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+}
+
+.element .close {
+    display: none;
+}
+
+.element.close {
+    display: none;
+}
+
+.opEl {
+    display: none;
+}
+
+.opEl.open {
+    display: block;
+}
+
+.opEl button {
+    display: block;
+}
