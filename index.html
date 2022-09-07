@@ -12,11 +12,15 @@
         <form id="serch-form">
             <label for="text">Поиск</label>
             <input type="text" id="srch" name="text">
-            <input type="button" onclick="serchEl()" value="Хммммм">
+            <input type="button" onclick="serchEl(true)" value="Хммммм">
+            <input type="button" id="srch-bck" class="srchBack" onclick="srchBck()" value="Вернуться">
         </form>
+        <div id="add-elem" class="addElem">
+        </div>
         <div id="op-el" class="opEl">
         </div>
         <div id="elem" class="element">
+            <button id="btn-add" onclick="addEl()">Добавить пост</button>
             <div id="el0"></div>
             <div id="el1"></div>
             <div id="el2"></div>

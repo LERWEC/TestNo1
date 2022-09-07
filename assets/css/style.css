@@ -11,6 +11,14 @@
     display: none;
 }
 
+.srchBack {
+    display: none;
+}
+
+.srchBack.open {
+    display: inline;
+}
+
 .element div {
     border: 1px solid grey;
     border-radius: 5px;
@@ -26,6 +34,26 @@
     display: none;
 }
 
+.element button {
+    margin-top: 5px;
+}
+
+.addElem {
+    display: none;
+    margin-top: 20px;
+}
+.addElem input {
+    margin-bottom: 15px;
+}
+
+.addElem button {
+    margin-top: 10px;
+}
+
+.addElem.open {
+    display: block;
+}
+
 .opEl {
     display: none;
 }
@@ -36,4 +64,5 @@
 
 .opEl button {
     display: block;
+    margin-top: 50px;
 }
